@@ -9,12 +9,53 @@
     width: 100%;
     margin: 0 auto;
     justify-content: center;
-    text-align: center;
-    
+    align-items: center;
+    text-align: center;    
 }
 
-form input, button {
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: grey;
+    height: 25px;
+    cursor: pointer;
+}
+
+form input, button, .messageSucess, .messageFail {
     align-self: center;
     display: block;
     margin: 0 auto;
+    width: 350px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+    align-self: centers;
+    height: 10px;
+}
+
+.messageSucess {
+    background-color: green;
+    color: white;
+    display: none;
+    height: 14px;
+}
+
+.messageFail {
+    background-color: red;
+    color: white;
+    display: none;
+    height: 14px;
 }
