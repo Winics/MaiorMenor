@@ -25,5 +25,8 @@ form.addEventListener('submit', function(e) {
         const messageResult = document.querySelector('.messageFail');
         messageResult.innerHTML =  messageFail;
         messageResult.style.display = 'block';
+
+        inputNumero1.value = ``;
+        inputNumero2.value = ``;
     }
 })
