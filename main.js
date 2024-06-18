@@ -24,7 +24,6 @@ form.addEventListener('submit', function(e) {
     }else {
         const messageResult = document.querySelector('.messageFail');
         messageResult.innerHTML =  messageFail;
-        messageResult.style = document.querySelector('.messageFail')
         messageResult.style.display = 'block';
     }
 })
